@@ -11,11 +11,13 @@ Page({
   },
 
   goToStories: function (event) {
-    wx.navigateTo({
-      url: '/pages/stories/stories'
-    })
-    // console.log(event.detail.value)
-    app.globalData.userStories.push(event.detail.value)
+    let story = event.detail.value
+    if (story.author !== "" && story.content !== "") {
+      wx.navigateTo({
+        url: '/pages/stories/stories'
+      })
+      app.globalData.userStories.push(event.detail.value)
+    }
   }, 
 
   /**

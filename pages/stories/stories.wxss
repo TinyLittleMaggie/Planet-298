@@ -1,7 +1,10 @@
 /* pages/stories/stories.wxss */
+page {
+  background-color: rgb(20, 20, 20);
+}
 .container {
   background-color: rgb(20, 20, 20);
-  height: 100vh;
+  min-height: 100vh;
   padding: 30rpx;
 }
 .story {
