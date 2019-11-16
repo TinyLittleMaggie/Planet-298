@@ -48,8 +48,8 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/stories/stories",
-					"pathName": "pages/stories/stories",
+					"name": "pages/submit/submit",
+					"pathName": "pages/submit/submit",
 					"query": "",
 					"scene": null
 				}

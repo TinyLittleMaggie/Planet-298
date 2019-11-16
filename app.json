@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/landing/landing",
+    "pages/submit/submit",
     "pages/stories/stories",
-    "pages/index/index",
     "pages/logs/logs"
   ],
   "window": {

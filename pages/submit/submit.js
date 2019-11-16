@@ -1,4 +1,4 @@
-// pages/landing/landing.js
+// pages/submit/submit.js
 Page({
 
   /**
@@ -62,11 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  goToSubmit: function () {
-    wx.navigateTo({
-      url: '/pages/submit/submit',
-    })
   }
 })
