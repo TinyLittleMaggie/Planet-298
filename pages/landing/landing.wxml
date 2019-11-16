@@ -1,0 +1,6 @@
+<!--pages/landing/landing.wxml-->
+<view class="container" style="background-image: url('img/landing-bg2.jpg')">
+  <text class="h1">What's on your mind?</text>
+  <text class="p">It's more common than you realise.</text>
+  <button bindtap="goToStories">Share it with us!</button>
+</view>

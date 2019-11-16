@@ -1,0 +1,7 @@
+<!--pages/stories/stories.wxml-->
+<view class="container">
+  <view class="story" wx:for="{{stories}}">
+    <view class="author">{{item.author}}</view>
+    <view class="content">{{item.content}}</view>
+  </view>
+</view>

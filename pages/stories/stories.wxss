@@ -1,0 +1,21 @@
+/* pages/stories/stories.wxss */
+.container {
+  background-color: rgb(20, 20, 20);
+  height: 100vh;
+  padding: 30rpx;
+}
+.story {
+  width: 100%;
+  background-color: #1f1e1e;
+  padding: 20rpx 40rpx;
+  margin-bottom: 15px;
+  border-radius: 12rpx;
+  box-sizing: border-box;
+}
+.author {
+  color: #3d469b;
+  font-weight: bold;
+}
+.content {
+  color: #9298D0;
+}
