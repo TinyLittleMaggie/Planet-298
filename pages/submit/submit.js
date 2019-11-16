@@ -1,3 +1,5 @@
+let app = getApp()
+
 // pages/submit/submit.js
 Page({
 
@@ -7,6 +9,14 @@ Page({
   data: {
 
   },
+
+  goToStories: function (event) {
+    wx.navigateTo({
+      url: '/pages/stories/stories'
+    })
+    // console.log(event.detail.value)
+    app.globalData.userStories.push(event.detail.value)
+  }, 
 
   /**
    * Lifecycle function--Called when page load

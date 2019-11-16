@@ -1,6 +1,6 @@
 <!--pages/submit/submit.wxml-->
 <view class="container">
-  <form>
+  <form bindsubmit="goToStories">
     <input name="author" placeholder="Anonymous Ninja"></input>
     <input name="content" placeholder="What's on your mind?"></input>
     <button form-type="submit">Shout into the void</button>

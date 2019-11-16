@@ -34,6 +34,24 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    userStories: [
+      {
+        author: "Anonymous Ninja",
+        content: "I have no idea what I'm doing with my life : ("
+      },
+      {
+        author: "Anonymous Potato",
+        content: "I am very lonely and scared : ("
+      },
+      {
+        author: "Anonymous Bingo",
+        content: "I can't fall asleep :'("
+      },
+      {
+        author: "Anonymous Banana",
+        content: "I'm sad and I don't know why : /"
+      }
+    ]
   }
 })
